@@ -32,7 +32,7 @@ jobs:
         
     - name: Install dependencies
       run: npm ci
-      working-directory: .npm
+      working-directory: /home/suzuki/Documentos/Complete_CICD_Terraform_GitHub_Actions/complete_ci_cd_pipeline_with_terraform_and_github_actions_2b5cvg
       
     - name: Run linter
       run: npm run lint
@@ -258,4 +258,3 @@ jobs:
           -var="public_key=${{ secrets.EC2_PUBLIC_KEY }}" \
           -var="project_name=${{ env.PROJECT_NAME }}" \
           -no-color
-          
