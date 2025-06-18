@@ -258,3 +258,4 @@ jobs:
           -var="public_key=${{ secrets.EC2_PUBLIC_KEY }}" \
           -var="project_name=${{ env.PROJECT_NAME }}" \
           -no-color
+          
