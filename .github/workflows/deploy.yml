@@ -32,7 +32,7 @@ jobs:
         
     - name: Install dependencies
       run: npm ci
-      working-directory: /home/suzuki/Documentos/Complete_CICD_Terraform_GitHub_Actions/complete_ci_cd_pipeline_with_terraform_and_github_actions_2b5cvg
+      working-directory: .npm
       
     - name: Run linter
       run: npm run lint
