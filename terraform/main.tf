@@ -9,7 +9,7 @@ terraform {
       version = "~> 5.0"
     }
   }
-  
+
   # Uncomment and configure for production
   # backend "s3" {
   #   bucket = "your-terraform-state-bucket"
@@ -20,7 +20,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
-  
+
   default_tags {
     tags = {
       Project     = var.project_name
